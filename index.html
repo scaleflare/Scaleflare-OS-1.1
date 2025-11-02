@@ -19,36 +19,36 @@
     }
     .container {
       width: 100%;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
-      text-align: center; /* CENTRALIZA TUDO */
     }
     h1 {
+      text-align: center;
       font-size: 28px;
       font-weight: 700;
       margin-bottom: 40px;
       color: #fff;
     }
     .stock {
-      margin-bottom: 36px;
+      margin-bottom: 28px;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-    }
-    .ticker {
-      font-size: 32px;
-      font-weight: 700;
-      margin-bottom: 8px;
     }
     .metrics {
       display: flex;
       gap: 16px;
       flex-wrap: nowrap;
-      justify-content: center;
       align-items: center;
       overflow-x: auto;
       padding: 8px 0;
-      min-width: 0;
+    }
+    .ticker {
+      font-size: 32px;
+      font-weight: 700;
+      margin-right: 24px;
+      min-width: 80px;
+      text-align: right;
     }
     .metric {
       display: flex;
@@ -74,6 +74,7 @@
     }
 
     footer {
+      text-align: center;
       margin-top: 60px;
       color: #555;
       font-size: 14px;
