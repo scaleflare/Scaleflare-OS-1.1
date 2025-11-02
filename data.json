@@ -1,0 +1,14 @@
+{
+  "stocks": [
+    {"ticker": "ARM", "beta": 2.49, "growth": 30, "flareScore": 98, "conviction": 92, "riskSync": 68, "sentiment": 64},
+    {"ticker": "NVDA", "beta": 1.95, "growth": 38, "flareScore": 100, "conviction": 98, "riskSync": 82, "sentiment": 88},
+    {"ticker": "ANET", "beta": 2.00, "growth": 34, "flareScore": 100, "conviction": 95, "riskSync": 88, "sentiment": 76},
+    {"ticker": "AVGO", "beta": 2.04, "growth": 33, "flareScore": 100, "conviction": 96, "riskSync": 85, "sentiment": 74},
+    {"ticker": "NET", "beta": 1.82, "growth": 31, "flareScore": 92, "conviction": 82, "riskSync": 52, "sentiment": 42},
+    {"ticker": "CRWD", "beta": 1.52, "growth": 32, "flareScore": 98, "conviction": 88, "riskSync": 78, "sentiment": 82},
+    {"ticker": "NOW", "beta": 1.55, "growth": 26, "flareScore": 88, "conviction": 86, "riskSync": 84, "sentiment": 79},
+    {"ticker": "TSM", "beta": 1.53, "growth": 38, "flareScore": 96, "conviction": 97, "riskSync": 65, "sentiment": 58},
+    {"ticker": "DDOG", "beta": 1.44, "growth": 29, "flareScore": 88, "conviction": 84, "riskSync": 70, "sentiment": 51},
+    {"ticker": "ASML", "beta": 1.14, "growth": 28, "flareScore": 94, "conviction": 98, "riskSync": 75, "sentiment": 73}
+  ]
+}
