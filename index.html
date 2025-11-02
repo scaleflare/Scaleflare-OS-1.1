@@ -19,7 +19,7 @@
     }
     .container {
       width: 100%;
-      max-width: 900px;
+      max-width: 1000px; /* Aumentado pra caber tudo */
       margin: 0 auto;
     }
     h1 {
@@ -30,7 +30,7 @@
       color: #fff;
     }
     .stock {
-      margin-bottom: 30px;
+      margin-bottom: 32px;
     }
     .ticker {
       font-size: 32px;
@@ -39,22 +39,25 @@
     }
     .metrics {
       display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
+      gap: 16px;           /* Espaço maior entre itens */
+      flex-wrap: nowrap;   /* NÃO QUEBRA LINHA */
       justify-content: center;
+      align-items: center;
+      overflow-x: auto;    /* Se for muito grande, rola horizontal */
+      padding: 8px 0;
     }
     .metric {
       display: flex;
       align-items: center;
-      gap: 8px;
-      font-size: 18px;
+      gap: 6px;
+      font-size: 17px;
+      white-space: nowrap;
     }
     .label { color: #aaa; font-weight: 600; }
     .value { font-weight: 700; }
     .beta { color: #ff6b35; }
     .growth { color: #00ff85; }
 
-    /* TODOS OS BOXES IGUAIS */
     .score-box {
       background: linear-gradient(90deg, #ff00d4, #00f0ff);
       color: black;
